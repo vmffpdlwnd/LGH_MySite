@@ -27,4 +27,4 @@ __*글씨가 기울게 쓰려면?*__
 
 [넥슨바로가기](https://www.nexon.com/Home/Game)</br>
 [아텐츠바로가기](https://atentsgame.com//landing.do)<br>
-[내사이트바로가기](https://LGHMySite.netlify.app)
+[내사이트바로가기](https://lghmysite.netlify.app/)
