@@ -112,3 +112,6 @@ class Snow2 {
 
 window.addEventListener("DOMContentLoaded", init);
 window.addEventListener("resize", resizeReset);
+
+
+
