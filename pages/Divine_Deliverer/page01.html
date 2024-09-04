@@ -116,7 +116,7 @@
     </div>
     <div class="navbar navbar-dark bg-success shadow-sm">
       <div class="container">
-        <a href="/pages/mainpage.html" class="navbar-brand d-flex align-items-center">
+        <a href="/index.html" class="navbar-brand d-flex align-items-center">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
             stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
             viewBox="0 0 24 24">
@@ -155,8 +155,17 @@
               <div class="card-body">
                 <h5 class="card-title">신의 배달부</h5>
                 <p class="card-text">신의 배달부에 대하여</p>
-                <a href="/pages/Divine_Deliverer/sub01.html" class="btn btn-dark">GDD</a>
-                <!-- <a href="/pages/Divine_Deliverer/sub01-1.html" class="btn btn-outline-success">순서도</a> -->
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                  <button type="button" class="btn btn-dark">GDD</button>
+                  <div class="btn-group" role="group">
+                    <button id="btnGroupDrop1" type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1" style="">
+                      <a class="dropdown-item" href="/pages/Divine_Deliverer/sub01.html">구버전</a>
+                      <a class="dropdown-item" href="/pages/Divine_Deliverer/sub01-1.html">신버전</a>
+                    </div>
+                  </div>
+                </div>
+                <!-- <a href="/pages/Divine_Deliverer/sub01-2.html" class="btn btn-outline-success">순서도</a> -->
               </div>
             </div>
           </div>
